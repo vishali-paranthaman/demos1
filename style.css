@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.logo-text {
+  color: #ff6b01;
+}
+
+.logo-highlight {
+  color: #f44336;
+}
+
+h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.brands {
+  color: #f44336;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  color: #555;
+  text-align: left;
+}
+
+.features li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.features span {
+  color: #ff6b01;
+  margin-right: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.login-form label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+#work-email {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background: #ccc;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.login-form a {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #ff6b01;
+  text-decoration: none;
+}
+
+.divider {
+  margin: 20px 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.google-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.google-logo {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.agreement {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #888;
+}
+
+.agreement a {
+  color: #ff6b01;
+  text-decoration: none;
+}
